@@ -1,0 +1,66 @@
+<html>
+  <head>
+    <meta charset = "utf-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <title> this is about css </title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .header{
+        color:red;
+        background-color: grey;
+      }
+      [class *= "col-"]{
+        float:left;
+        border:5px solid black;
+        margin:25px;
+        padding:5px;
+      }
+    .col-3{width:25%}
+    .col-9 {width:75%
+      }
+      
+      ul{
+        list-style-type: none;
+      }
+      li{
+        background-color: blue;
+        margin:5px;
+      }
+      li:hover{
+        background-color: blueviolet;
+      }
+      @media only screen and (max-width:700px){
+        [class *= "col-"]{
+          width:100%;
+        }
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class = "header">
+      <h1> Ethio programming </h1>
+    </div>
+
+    <div class = "col-3 menu">
+      <ul>
+        <li>HOME</li>
+        <li>C++</li>
+        <li>JAVA</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JAVASCRIPT</li>
+      </ul>
+    </div>
+
+    <div class = "col-9">
+      <h1>Introduction</h1>
+      <p>programming is askill that can be acquired by acomputer professioal that gives him/her the knowledge of making the computer perform the required operation</p>
+      <p>computer programming is critical if one wants to know how to make the computer performing task . most users of a computer only use the available applications on the computer these application are produced by computer programmers.
+        thus if someone is interested too make such king od applications.he;she needs to learn how to talk to the computer,which is learning computer progrmaming.
+      </p>
+    </div>
+  </body>
+</html>

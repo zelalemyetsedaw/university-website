@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset = "utf-8">
+    <title> university</title>
+    <link rel = "stylesheet" href = "day2.css">
+    <link rel="stylesheet" href = "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+
+    <section class = "header">
+      <nav>
+        <a href = " "><img src = "logo.png"></a>
+        <div class = "nav-links "   id = "navlinks">
+          <i class="fa fa-times" onclick = "hideMenu()"></i>
+          <ul>
+            <li><a href = "">HOME</a></li>
+            <li><a href = "">ABOUT</a></li>
+            <li><a href = "">COURSE</a></li>
+            <li><a href = "">BLOG</a></li>
+            <li><a href = "">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick = "showMenu()"></i>
+      </nav>
+
+      <div class = "text-box">
+        <h1>world biggest university</h1>
+        <p>making website is now one of the easiest thing in the world.You just need to learn <br>HTML,CSS,Javascript and you are good to go</p>
+        <a class = "hero-btn">visit us to know more</a>
+      </div>
+
+    </section>
+
+    <!----------------courses----------------------->
+    <section class = "courses">
+      <h1>Courses we offer</h1>
+      <p>programming the best subject i ever seen in my life it is one of the most popular language</p>
+
+      <div class = "row">
+        <div class = "column">
+          <h3>Intermidiate</h3>
+          <p>programming the best subject i ever seen in my life it is one of the most popular language programming the best subject i ever seen in my life it is one of the most popular language</p>
+        </div>
+        <div class = "column">
+          <h3>Degree</h3>
+          <p>programming the best subject i ever seen in my life it is one of the most popular language programming the best subject i ever seen in my life it is one of the most popular language</p>
+        </div>
+        <div class = "column">
+          <h3>Post Graduation</h3>
+          <p>programming the best subject i ever seen in my life it is one of the most popular language programming the best subject i ever seen in my life it is one of the most popular language</p>
+        </div>
+      </div>
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+
+      var navlinks = document.getElementById("navlinks");
+      function showMenu(){
+        navlinks.style.right = "0px";
+
+      }
+      function hideMenu(){
+        navlinks.style.right = "-200px";
+      }
+    </script>
+
+        
+
+
+
+  </body>
+</html>

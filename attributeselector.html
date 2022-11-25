@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset = "utf-8">
+    <title>this is about css</title>
+    <style>
+      img[title ~= "ethio"]{
+        border:15px solid red;
+      }
+      img[title |= "ethio"]{/*the first word is ethio and ethio-*/
+        border:15px solid green;
+      }
+      img[title ^= "ethio"]{/*the first word is ethio*/
+        border:15px solid blue;
+      }
+      /*img[title $= "ethio"]{/*the end word is ethio
+        border:15px solid cyan;*/
+      }
+    </style>
+  </head>
+  <body>
+    <img src = "20.jpg" width = 500px height="500px" title = "ethio programming">
+    <img src = "20.jpg" width = 500px height="500px" title = "ethio">
+    <img src = "20.jpg" width = 500px height="500px" title = "this is about ethio">
+  </body>
+</html>

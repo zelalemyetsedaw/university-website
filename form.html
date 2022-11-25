@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset = "utf-8">
+    <title>this is about</title>
+  </head>
+  <body>
+    <form action="clear.html">
+      <p><label>First name:<br>
+      <input type = "text" name = "fname"></label>
+      </p>
+      <p><label>Second name:<br>
+        <input type = text name = "sname"></label>
+      </p>
+      <p>
+        <input type = "submit" value = "submit me">
+        <input type = "reset" value = "clear">
+      </p>
+      <p>
+        <input list="programming language">
+        <datalist id="programming language">
+          <option value="c++">
+            <option value = "java">
+              <option value = "htmL"></option>
+            </option>
+          </option>
+        </datalist>
+
+        <fieldset>
+          <legend>students form</legend>
+              male:<input type = "radio" name = "sex" value="male"checked>
+              female:<input type = "radio" name="sex" value = "female">
+        </fieldset>
+
+        <input list="program">
+        <datalist id="program">
+          <option value="c++">c++</option>
+          <option value="java">java</option>
+          <option value = "html">html</option>
+        </datalist>
+        <fieldset>
+          <legend>students freshman data</legend>
+          <select name = "subject" size = "2" multiple>
+            <option value = "maths">maths</option>
+            <option value = "biology">biology</option>
+            <option value = "chemistry">chemistry</option>
+            <option value = "physics" selected>physics</option>
+          </select>
+        </fieldset>
+        <fieldset>
+          <legend>students data</legend>
+          <label>comments:</label>
+          <textarea name = zed rows="20" cols="20">comment here</textarea>
+          <button value = "button" onclick="alert('hello ethio programming followers')">press me</button>
+          <input type = "submit" value = "submit me">
+        </fieldset>
+    </form>
+  </body>
+</html>
